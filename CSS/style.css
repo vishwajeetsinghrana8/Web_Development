@@ -1,0 +1,60 @@
+/* selector{
+    property: value:
+} */
+
+*{
+    text-align: right;
+}
+
+body{
+    /* background-color: aquamarine; */
+    background-image: url('https://cdn.wallpapersafari.com/37/18/17U0Qg.jpg');
+}
+
+h2, p:hover{
+    /* color: #6F256F; */
+    color: #6F256F;
+    text-align: center;
+    border: 5px dashed rgb(39, 117, 84);
+    cursor: pointer;
+}
+
+p{
+    color: pink;
+}
+
+p{
+    color: green;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    float: right;
+}
+
+footer{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.text{
+    border: 4px dashed green;
+}
+
+.active{
+    color: red;
+}
+
+#div1{
+    background-color: rgba(0, 0, 255, 0.2);
+}
